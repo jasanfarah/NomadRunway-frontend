@@ -27,6 +27,7 @@ Calculate your runway for your next adventure 🌍
 - [ ] Better styling for 'Savings' field
 - [ ] Fix footer
 - [ ] Fix picture on Chrome
+- [ ] Actually use typescript correct way hehe
 
 ## Feedback
 

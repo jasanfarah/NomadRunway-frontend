@@ -1,0 +1,60 @@
+
+
+
+.overview-card{
+    max-width: 500px;
+}
+
+.overview-card__items{
+    background-color: #1F1E1E;
+        padding: 20px;
+    border-radius: 6px;
+
+}
+.overview-card_row-result{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-bottom: 10px;
+
+}
+.overview-card_survivaldays{
+    margin-top: 15px;
+    display: flex;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    /* Styles for screens smaller than 768px */
+    .overview-card__items {
+      flex-direction: column;
+    }
+    .overview-card__items {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* center horizontally */
+    }
+
+  }
+
+
+.overview-card_row-result{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+
+}
+
+.overview-card_row-result th:nth-child(2){
+    margin-left: 3rem;
+    color: yellow;
+}
+
+.overview-card_survivaldays{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.overview-card_survivaldays_sucess{
+    color: #40da7b;
+}

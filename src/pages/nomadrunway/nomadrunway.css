@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+  }
+
+  html {
+    height: 100%
+}
+
+.App {
+    display: flex;
+    justify-content: space-between;
+}
+
+.App > :nth-child(2) {
+margin-left: 6%;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background: #171717;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow-x: hidden;
+}
+@media only screen and (max-width: 919px) {
+    body {
+        font-family: 'Inter', sans-serif;
+        background:#171717;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        overflow-x: hidden;
+    }
+  }
+.nomadcalc-wallpaper{
+    background: linear-gradient(to right,#171717 50%, transparent 50%), url('../../styles/kl.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.title-item{
+    color: white;
+    padding-left: 10%;
+    margin-top: 5%;
+}
+
+.content-section{
+    padding-left: 10%;
+    color: white;
+    display: flex;
+    flex-direction: column ;
+    align-items: flex-start;
+}
+
+.nomadcalc-item{
+    margin-bottom: 30px;
+}
+
+
+.nomadcalc-item__thanks__link{
+text-decoration: none
+}
+
+.nomadcalc-item__thanks__levelsio{
+    color: yellow;
+}
+.nomadcalc-item__footer{
+    color: grey;
+    font-size: 12px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+
+@media only screen
+and (max-width: 480px){
+    .title-item{
+        color: white;
+        display: flex;
+        padding-left: 0%;
+        text-align: center;
+        justify-content: center;
+    }
+    .content-section{
+        padding: 10%;
+        color: white;
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .nomadcalc-item{
+        margin-bottom: 30px;
+        width: 300px;
+
+    }
+
+    .freaking-kl {
+        display: none;
+    }
+}
+
+
+.nomadcalc-item-twitter{
+    width: 50%;
+    color: #171717;
+}

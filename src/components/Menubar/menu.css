@@ -1,0 +1,103 @@
+.menu-bar{
+    display: flex;
+}
+.menu-bar__items{
+    display: flex;
+    background-color: #1F1E1E;
+    padding: 15px;
+    border-radius: 6px;
+}
+.menu-bar__item{
+    color: #1F1E1E;
+}
+.menu-bar__item >*{
+    font-family: 'Inter', sans-serif;
+    padding: 0.7rem;
+    background-color: #1F1E1E;
+    color: white;
+    border: #844FFC 2px solid;
+    border-radius: 6px;
+    width: 200px;
+    height: 45px;
+    box-sizing:border-box;
+    margin-right: 25px;
+}
+.menu-bar__item input::placeholder{
+    color: white;
+    font-size: 1rem;
+}
+.menu-bar__item select{
+    color: white;
+    font-size: 1rem;
+}
+.menu-bar__item >*:focus{
+    outline: none;
+}
+.menu-bar__calculate button {
+    background-color: #844FFC;
+    color: white;
+    padding: 1.4rem;
+    width: 200px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    margin-left: 25px;
+}
+.menu-bar__calculate button:hover{
+    background-color: #5E2EEA;
+}
+
+
+@media only screen
+and (max-width: 480px) {
+    .menu-bar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .menu-bar__items{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #1F1E1E;
+        padding: 20px;
+    }
+
+    .menu-bar__item{
+        color: #1F1E1E;
+        flex: 1;
+        margin-bottom: 25px;
+
+    }
+    .menu-bar__item>*{
+           width: 200px;
+        box-sizing:border-box
+    }
+
+    .menu-bar__calculate{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu-bar__calculate button {
+        background-color: #844FFC;
+        color: white;
+        padding: 1.4rem;
+        width: auto;
+        font-size: 1rem;
+        border: none;
+        border-radius: 6px;
+        margin-left: 0px;
+
+
+    }
+    .menu-bar__calculate button:hover{
+        background-color: #5E2EEA;
+    }
+
+
+
+}
